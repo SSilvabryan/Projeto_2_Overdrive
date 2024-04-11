@@ -1,0 +1,17 @@
+/* Project Colors */
+:root {
+    --bg-color: #332B33;
+    --secondary-bg-color: #4A3C4B;
+    --primary-color: #fff;
+    --secondary-color: #744A75;
+    --title-color: #EE20F5;
+    --text-color: #9D4AA0;
+    --border-color: #C63CCA;
+}
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+
+

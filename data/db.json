@@ -1,0 +1,92 @@
+{
+    "person": [
+        {   
+            "id": 1,
+            "nome": "Bryan Souza da Silva",
+            "cpf": "556.801.398-55",
+            "telefone": "(19) 99960-2319",
+            "usuario": "bryann",
+            "status": "Pendente"
+        },
+        {   
+            "id": 2,
+            "nome": "Matheus",
+            "cpf": "442.090.652-93",
+            "telefone": "(96) 3748-2517",
+            "usuario": "matheus",
+            "status": "Ativo",
+            "empresa": "Auto Peças Moura"
+        },
+        {   
+            "id": 3,
+            "nome": "Matt",
+            "cpf": "802.177.825-31",
+            "telefone": "(79) 3263-2586",
+            "usuario": "matt",
+            "status": "Inativo"
+        },
+        {   
+            "id": 4,
+            "nome": "Nakir",
+            "cpf": "523.202.024-20",
+            "telefone": "(82) 3368-5182",
+            "usuario": "nakirr",
+            "status": "Ativo",
+            "empresa": "Overdrive"
+        }
+    ],
+    "company": [
+        {
+            "id": 1,
+            "cnpj": "33.143.114/0001-40",
+            "razaoSocial": "OVERDRIVE DESENVOLVIMENTO DE SOFTWARES E CONSULTORIA EM INFORMATICA LTDA",
+            "nomeFantasia": "Overdrive",
+            "dataAbertura": "2019-03-26",
+            "cnae": "6201-5/01",
+            "naturezaJuridica": "Sociedade Empresária Limitada",
+            "cep": "13.604-498",
+            "telefone": "*",
+            "capital": "R$ 10.000,00",
+            "situacao": "Ativa"
+        },
+        {
+            "id": 2,
+            "cnpj": "61.385.418/0001-59",
+            "razaoSocial": "Vaz Aguiar Empreendimentos LTDA",
+            "nomeFantasia": "Empreendimentos Vaz",
+            "dataAbertura": "2023-01-15",
+            "cnae": "4110-7/00",
+            "naturezaJuridica": "Sociedade Empresária Limitada",
+            "cep": "01.530-010",
+            "telefone": "(12) 2378-4856",
+            "capital": "R$ 5.000,00",
+            "situacao": "Inativa"
+        },
+        {
+            "id": 3,
+            "cnpj": "64.758.968/0001-64",
+            "razaoSocial": "Moura Vasconcelos Auto Peças EPP",
+            "nomeFantasia": "Auto Peças Moura",
+            "dataAbertura": "2000-03-13",
+            "cnae": "4530-7/03",
+            "naturezaJuridica": "Empresa de Pequeno Porte",
+            "cep": "66.085-095",
+            "telefone": "(91) 3464-2756",
+            "capital": "R$ 15.000,00",
+            "situacao": "Ativa"
+        },
+        {
+            "id": 4,
+            "cnpj": "74.112.954/0001-22",
+            "razaoSocial": "Billé Braz Lavanderia ME",
+            "nomeFantasia": "Lavanderia Billé",
+            "dataAbertura": "1956-05-02",
+            "cnae": "9601-7/01",
+            "naturezaJuridica": "Micro Empresa",
+            "cep": "60.534-700",
+            "telefone": "(85) 3276-7846",
+            "capital": "R$ 8.000,00",
+            "situacao": "Inativa"
+        }
+    ]
+}

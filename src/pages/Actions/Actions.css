@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#body {
+    width: 100%;
+    height: 120vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#body_company {
+    width: 100%;
+    height: 180vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#fade {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+
+#fade #loader {
+    color: #C63CCA;
+    width: 60px;
+    height: 60px;
+}
+
+.hide {
+   display: none !important; 
+}
+
+#message {
+    text-align: left;
+    width: 40%;
+}
+
+.alert.alert-light p {
+    border-bottom: 1px solid #9D4AA0;
+    padding: 1.2em 0;
+}
+
+.alert.alert-light button {
+    padding: 1rem;
+    color: #fff;
+    border-radius: 10px;
+}
+
+#arrow_left {
+    display: block;
+    float: left;
+    top: 0;
+}
+
+#arrow_left i {
+    color: #9D4AA0;
+    font-size: 2rem;
+    position: absolute;
+    top: 0;
+    left: 10px;
+}
+
+#arrow_left  i::after {
+    content: " ";
+    width: 0%;
+    height: 4px;
+    background-color: #C63CCA;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transition: .5s ease-in-out;
+}
+
+#arrow_left  i:hover::after {
+    width: 100%;
+}
+
+#form {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 60px;
+    background-color: #fff;
+    width: min-content;
+    align-items: center;
+    border-radius: 20px;
+}
+
+#form_company {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 60px;
+    background-color: #fff;
+    width: 1000px;
+    align-items: center;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 3em;
+    color: #EE20F5;
+}
+
+h4 {
+    color: #4A3C4B;
+    font-size: 2em;
+}
+
+p {
+    color: #4A3C4B;
+    margin: 20px 0;
+}
+
+label {
+    font-size: 16px;
+    position: absolute;
+    left: 70px;
+    transition: .5s;
+    cursor: text;
+}
+
+.label_left {
+    left: 90px;
+}
+.label_right {
+    left: 760px;
+}
+
+.input-person, .select {
+    width: 100%;
+}
+
+input, select {
+    width: 400px;
+    padding: 5px;
+    margin-bottom: 30px;
+    text-align: left;
+    padding-left: 5px;
+    outline: none;
+    border: none;
+    border-bottom: 1px  solid #4A3C4B;
+    transition: .6s ease-in-out;
+}
+
+input:focus, input:valid {
+    border-bottom: 2px  solid #C63CCA;
+}
+
+input:focus ~ label, input:valid ~ label, select:focus ~ label, select:valid ~ label {
+    transform: translateY(-15px);
+    font-size: 12px;
+}
+
+select:focus {
+    background-color: #4A3C4B;
+    border: 1px solid #C63CCA;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.button {
+    background-color: var(--text-color);
+    border: none;
+    transition: .8s ease-in;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: .3px;
+    width: 50%;
+}
+
+.button:hover {
+    background-color: var(--title-color);
+}
+
+#btn {
+    margin-top: 10px;
+}
+
+#btn button {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 40px;
+    color: #fff;
+}
+
+@media (max-width: 990px) {
+    #body_company {
+        width: 100%;
+    }
+    #form_company {
+        width: 80%;
+    }
+    input, select {
+        width: 100%;
+    }
+    .label_right {
+        left: 350px;
+    }
+    .data {
+        margin-top: -10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .label_right {
+        left: 300px;
+    }
+}
+
+@media (max-width: 680px) {
+    #body, #body_company {
+        width: 100%;
+    }
+    #form {
+        margin-top: 0;
+        height: 70%;
+    }
+    input, select {
+        width: 80%;
+    }
+    
+    #form_company, #form {
+        width: 80%;
+        overflow-y: scroll;
+        max-height: 60rem;
+        border-radius: 0;
+    }
+    #form_company::-webkit-scrollbar, #form::-webkit-scrollbar  {
+        width: 12px;
+    }
+      
+    #form_company::-webkit-scrollbar-track, #form::-webkit-scrollbar  {
+        background: #fff;
+    }
+      
+    #form_company::-webkit-scrollbar-thumb, #form::-webkit-scrollbar  {
+        background-color: rgba(128,0,255,1);
+        border-radius: 20px;
+        margin: 0 auto;
+        border: 3px solid rgba(0, 0, 0, .6);
+    }
+    .label_right {
+        left: 280px;
+    }
+}
+
+@media (max-width: 550px) {
+    .label_right {
+        left: 90px;
+    }
+}
